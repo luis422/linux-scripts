@@ -16,3 +16,5 @@ case "$DEBIAN_VERSION" in
         echo "Please verify compatibility manually."
         ;;
 esac
+
+sudo apt update
