@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p ./postgres18/data
+
 # -it : interactive terminal
 # --rm : remove container after exit
 podman run -it --rm \
